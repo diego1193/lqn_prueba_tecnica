@@ -55,7 +55,49 @@ python ejercicio_2.py
 ```
 Y aparecerá en consola la solución del ejercicio 2.
 
-## Solucion parte 2, prueba tecnica 🚀
+## Solucion parte 2, prueba tecnica (Explicación)🚀
+
+### Arquitectura **my_swapi**
+
+> **-my_swapi:**
+>   **-app:** 
+>     **-fixtures:**
+>       -characters.json
+>       -diretors.json
+>       -films.json
+>       -people.json
+>       -planets.json
+>       -producers.json
+>       -unittest.json
+>     -management:
+>       -commands:
+>        -load_fixtures.py
+>     -admin.py
+>     -apps.py
+>     -models.py
+>     -schema.py
+>     -tests.py
+>     -utils.py
+>     -views.py
+>   -extra:
+>     -SWAPI.postman_collection.json
+>   -my_swapi:
+>     -schema.py
+>     -settings.py
+>     -urls.py
+>     -wsgi.py
+>   -tests:
+>     -test_character.py
+>     -test_director.py
+>     -test_film.py
+>     -test_people.py
+>     -test_planet.py
+>     -test_producer.py
+>   -db.sqlite3
+>   -manage.py
+>   -pytest.ini
+>   -requirements.txt
+>   -tox.ini
 
 Nos dirigimos a la carpeta llamada **parte_2**, en esta carpeta abran dos carpetas **my_swapi** y **swapi_docker**, ahora procederemos a abrir la carpeta **my_swapi** (para poder ejecutar ejecutar el proyecto debemos dirigirnos mediante consola a la carpeta **my_swapi**).
 
@@ -65,4 +107,19 @@ En la carpeta **app** dentro de **my_swapi**, encontraremos un archivo llamado *
 
 #### Solución apartado 2 de la segunda parte de la prueba 📝
 
-En la carpeta **my_swapi**, encontraremos un archivo llamado **utils.py**, allí podremos ver documentado con un docstring, dicha función, según la solución de este apartado.
+En la carpeta **app** dentro de **my_swapi**, encontraremos un archivo llamado **utils.py**, allí podremos ver documentado con un docstring, dicha función, según la solución de este apartado.
+
+#### Solución apartado 3 de la segunda parte de la prueba 📝
+
+En la carpeta **app** dentro de **my_swapi**, encontraremos un archivo llamado **schema.py**, allí podremos visualizar la solución al apartado.
+
+#### Solución apartado 4 y 5 de la segunda parte de la prueba 📝
+
+En la carpeta **app** dentro de **my_swapi**, encontraremos dos archivos llamados **models.py** y **schema**, allí podremos visualizar la solución al los apartados.
+
+#### Solución apartado 6 de la segunda parte de la prueba 📝
+En la carpeta **tests** dentro de **my_swapi**, en esta carpeta prodremos encotrar 6 archivos **.py**, son las pruebas unitarias, y para configurar las pruebas unitarias con la herramienta **pytest** se encuentra el archivo **pytest.ini** dentro de **my_swapi**.
+
+#### Solución apartado 7 de la segunda parte de la prueba 📝
+En la carpeta **app** dentro de **my_swapi**, encontraremos un archivo llamado **models.py** allí podremos ver los cambios hechos sobre la clase People y por consiguiente la solución a este apartado.
+
