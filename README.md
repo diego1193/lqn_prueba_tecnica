@@ -54,3 +54,15 @@ En consola escribimos:
 python ejercicio_2.py
 ```
 Y aparecerá en consola la solución del ejercicio 2.
+
+## Solucion parte 2, prueba tecnica 🚀
+
+Nos dirigimos a la carpeta llamada **parte_2**, en esta carpeta abran dos carpetas **my_swapi** y **swapi_docker**, ahora procederemos a abrir la carpeta **my_swapi** (para poder ejecutar ejecutar el proyecto debemos dirigirnos mediante consola a la carpeta **my_swapi**).
+
+#### Solución apartado 1 de la segunda parte de la prueba 📝
+
+En la carpeta **app** dentro de **my_swapi**, encontraremos un archivo llamado **models.py** allí podremos ver los cambios hechos sobre la clase People y por consiguiente la solución a este apartado.
+
+#### Solución apartado 2 de la segunda parte de la prueba 📝
+
+En la carpeta **my_swapi**, encontraremos un archivo llamado **utils.py**, allí podremos ver documentado con un docstring, dicha función, según la solución de este apartado.
