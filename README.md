@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 Ya descargado el repositorio, procederemos a abrir el archivo con Visual Studio Code o nuestro IDE preferido; allí encontraremos una carpeta llamada **parte_1**, en esta carpeta abran dos archivos **ejercicio_1.py** y **ejercicio_2.py**, ahora procederemos a ejecutar cada uno de estos archivos (para poder ejecutarlos debemos dirigirnos a la carpeta **parte_1** mediante consola).
 
-### Solución ejercicio 1 de la primara parte 1 de la prueba 📝
+#### Solución ejercicio 1 de la primara parte de la prueba 📝
 
 En consola escribimos:
 ```
@@ -47,7 +47,7 @@ python ejercicio_1.py
 ```
 Y aparecerá en consola la solución del ejercicio 1.
 
-### Solución ejercicio 2 de la primara parte 1 de la prueba 📝
+#### Solución ejercicio 2 de la primara parte de la prueba 📝
 
 En consola escribimos:
 ```
