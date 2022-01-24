@@ -59,7 +59,7 @@ Y aparecerá en consola la solución del ejercicio 2.
 
 ### Arquitectura **my_swapi**
 
--my_swapi:
+-my_swapi:</br>
    -app: 
      -fixtures:
        -characters.json
