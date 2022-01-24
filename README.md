@@ -140,7 +140,7 @@ python manage.py load_fixtures
 
 * #### PyTest
 
-Para poder ejecutar el proyecto debemos dirigirnos mediante consola a la carpeta **my_swapi**, allí escribimos lo siguiente:
+Ahora escribimos lo siguiente:
 ```
 pytest
 ```
@@ -149,17 +149,21 @@ Esto lo hacemos para generar las pruebas unitarias con herramienta **_PyTest_** 
 ![ScreenShot](/images/pytest1.jpg)
 
 * #### Flake8
-Para poder ejecutar el proyecto debemos dirigirnos mediante consola a la carpeta **my_swapi**, allí escribimos lo siguiente:
+Escribimos lo siguiente:
 ```
 flake8 .
 ```
-Esto lo hacemos para cerciorarnos que nuestro proyecto tiene una sintaxis correcta y es un código de calidad con la herramienta **_Flake8_**.
+Esto lo hacemos para cerciorarnos que nuestro proyecto tiene una sintaxis correcta y es un código de calidad, con la herramienta **_Flake8_**.
 #### Ejemplo:
 ![ScreenShot](/images/flake.jpg)
 
 * #### Ejecutando proyecto
-Para poder ejecutar el proyecto debemos dirigirnos mediante consola a la carpeta **my_swapi**, allí escribimos lo siguiente:
+Para correr nuestro proyecto:
 ```
-flake8 .
+python manage.py runserver
 ```
-Esto lo hacemos para cerciorarnos que nuestro proyecto tiene una sintaxis correcta y es un código de calidad con la herramienta **_Flake8_**.
+Una vez estemos corriendo el servidor, abrimos Postman e importamos nuestra collecion, que tiene como nombre **_SWAPI.postman_collection.json_** que esta en **extra** en la carpeta **my_swapi**, allí podremos probar cada uno de los query, tanto como los que se añadieron **Character(Personajes)**, como los anteriores.
+
+#### Coleccion Postman
+![ScreenShot](/images/postman.jpg)
+
