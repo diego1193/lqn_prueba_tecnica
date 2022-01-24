@@ -69,7 +69,7 @@ Y aparecerá en consola la solución del ejercicio 2.
 >>>>-planets.json</br>
 >>>>-producers.json</br>
 >>>>-unittest.json</br>
->>>-management:
+>>-management:</br>
 >>>>-commands:
 >>>>>-load_fixtures.py
      -admin.py
