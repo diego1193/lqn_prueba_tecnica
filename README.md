@@ -173,7 +173,7 @@ Este proyecto esta ubicado en la carpeta **parte_2** de nuestro proyecto clonado
 ### Nota: 📢
 > Dado que para crear un contenedor docker para Django, debemos cambiar varias líneas de código en settings.py y generar carpetas adicionales y configuraciones para nuestro contenedor; tome la decisión de crear un proyecto aparte para este apartado de la práctica.
 
->Tenga encuenta que para ejecutar correctamente el proyecto debe tener instalado Docker, en su ordenador y debe dirigirse mediante consola a la carpeta **swapi_docker**).
+>Tenga encuenta que para ejecutar correctamente el proyecto debe tener instalado Docker y debe dirigirse mediante consola de git bash a la carpeta **swapi_docker**).
 
 
 ### Arquitectura swapi_docker ⚙️
@@ -200,7 +200,7 @@ Este proyecto esta ubicado en la carpeta **parte_2** de nuestro proyecto clonado
         - views.py
     - config:
         - gunicorn:
-            conf.py **_(Configurando el servidor wsgi (guinicorn))_**
+            - conf.py **_(Configurando el servidor wsgi (guinicorn))_**
         - nginx:
             - conf.d:
                 - local.conf **_(Configurando servidor inverso (nginx))_**
@@ -232,3 +232,36 @@ Este proyecto esta ubicado en la carpeta **parte_2** de nuestro proyecto clonado
     - pytest.ini **_(Configuración para pruebas unitarias)_**
     - requirements.txt
     - tox.ini **_(Configuración para flake8)_**
+
+***
+### Ejecutando y creando contenedor 🚀🐳
+
+Nos dirigimos a nuestro proyecto **swapi_docker** mediante consola y desde allí escribimos lo siguiente:
+```
+docker-compose up --build
+```
+
+Una vez crea el contenedor, debemos hacer las migraciones de nuestra aplicacion en el contenedor
+```
+docker-compose run django_app python manage.py makemigrations
+```
+```
+docker-compose run django_app python manage.py migrate
+```
+
+Procedemos a cargar los registros en la base de datos
+```
+docker-compose run django_app python manage.py load_fixtures
+```
+Para que nos pueda mostrar los archivos estaticos
+```
+docker-compose run django_app python manage.py collectstatic
+```
+Hacer el **__Pytets__** antes de sacarlo a produccion
+```
+docker-compose run django_app pytest
+```
+
+Luego debemos correr el contenedor y volver hacer los query con los request en Postman.
+
+## **__Eso es todo, muchas gracias__**. 🧑‍💻
