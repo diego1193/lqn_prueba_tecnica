@@ -162,8 +162,58 @@ Para correr nuestro proyecto:
 ```
 python manage.py runserver
 ```
-Una vez estemos corriendo el servidor, abrimos Postman e importamos nuestra collecion, que tiene como nombre **_SWAPI.postman_collection.json_** que esta en **extra** en la carpeta **my_swapi**, allí podremos probar cada uno de los query, tanto como los que se añadieron **Character(Personajes)**, como los anteriores.
+Una vez estemos corriendo el servidor, abrimos Postman e importamos nuestra colección, que tiene como nombre **_SWAPI.postman_collection.json_** que esta en **extra** en la carpeta **my_swapi**, allí podremos probar cada uno de los query, tanto como los que se añadieron **Character(Personaje)**, como los anteriores.
 
-#### Coleccion Postman
+#### Colección Postman
 ![ScreenShot](/images/postman1.jpg)
 
+## Creando contenedor de Docker para Django 🐍🐳
+
+Este proyecto esta ubicado en la carpeta **parte_2** de nuestro proyecto clonado y tiene como nombre **swapi_docker**.
+### Nota: 📢
+> Dado que para crear un contenedor docker para Django, debemos cambiar varias líneas de código en settings.py y generar carpetas adicionales y configuraciones para nuestro contenedor; tome la decisión de crear un proyecto aparte para este apartado de la práctica.
+
+>Tenga encuenta que para ejecutar correctamente el proyecto debe tener instalado Docker, en su ordenador y debe dirigirse mediante consola a la carpeta **swapi_docker**).
+
+
+### Arquitectura swapi_docker ⚙️
+
+- my_swapi:
+    - app:
+        - fixtures: **_(Archivos a cargar registros en la base de datos)_**
+            - characters.json
+            - diretors.json
+            - films.json
+            - people.json
+            - planets.json
+            - producers.json
+            - unittest.json
+        - management:
+            - commands:  **_(función para cargar registros en la base de datos)_**
+                - load_fixtures.py
+        - admin.py
+        - apps.py
+        - models.py
+        - schema.py
+        - tests.py
+        - utils.py
+        - views.py
+    - extra: **_(Coleccion para cargar en postman)_**
+        - SWAPI.postman_collection.json
+    - my_swapi: **_(Archivos principales y configuraciones de la aplicación)_**
+        - schema.py
+        - settings.py
+        - urls.py
+        - wsgi.py
+    - tests: **_(Archivos .py para test unitarios)_**
+        - test_character.py
+        - test_director.py
+        - test_film.py
+        - test_people.py
+        - test_planet.py
+        - test_producer.py
+    - db.sqlite3 
+    - manage.py
+    - pytest.ini **_(Configuración para pruebas unitarias)_**
+    - requirements.txt
+    - tox.ini **_(Configuración para flake8)_**
