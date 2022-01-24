@@ -127,13 +127,21 @@ En la carpeta **app** dentro de **my_swapi**, encontraremos un archivo llamado *
 
 * #### PyTest
 
-Para poder ejecutar el proyecto debemos dirigirnos mediante consola a la carpeta **my_swapi** allí escribimos lo siguiente:
+Para poder ejecutar el proyecto debemos dirigirnos mediante consola a la carpeta **my_swapi**, allí escribimos lo siguiente:
 ```
 pytest
 ```
-Esto lo hacemos para generar las pruebas unitarias con **_PyTest_** y poder estar seguros que nuestro proyecto esta corriendo correctamente antes de salir a producción.
+Esto lo hacemos para generar las pruebas unitarias con herramienta **_PyTest_** y poder estar seguros que nuestro proyecto esta corriendo correctamente antes de salir a producción.
 #### Ejemplo:
 ![ScreenShot](/images/pytest1.jpg)
 
+* #### Flake8
+Para poder ejecutar el proyecto debemos dirigirnos mediante consola a la carpeta **my_swapi**, allí escribimos lo siguiente:
+```
+flake8 .
+```
+Esto lo hacemos para cerciorarnos que nuestro proyecto tiene una sintaxis correcta y es un código de calidad con la herramienta **_Flake8_**.#### Ejemplo:
+#### Ejemplo:
+![ScreenShot](/images/pytest1.jpg)
 
 
