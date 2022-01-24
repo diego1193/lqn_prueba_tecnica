@@ -70,35 +70,40 @@ Y aparecerá en consola la solución del ejercicio 2.
 >>>>-producers.json</br>
 >>>>-unittest.json</br>
 
->>-management:</br>
+>>>-management:</br>
 >>>>-commands:
 >>>>>-load_fixtures.py
-     -admin.py
-     -apps.py
-     -models.py
-     -schema.py
-     -tests.py
-     -utils.py
-     -views.py
-   -extra:
-     -SWAPI.postman_collection.json
-   -my_swapi:
-     -schema.py
-     -settings.py
-     -urls.py
-     -wsgi.py
-   -tests:
-     -test_character.py
-     -test_director.py
-     -test_film.py
-     -test_people.py
-     -test_planet.py
-     -test_producer.py
-   -db.sqlite3
-   -manage.py
-   -pytest.ini
-   -requirements.txt
-   -tox.ini
+
+>>>-admin.py
+>>>-apps.py
+>>>-models.py
+>>>-schema.py
+>>>-tests.py
+>>>-utils.py
+>>>-views.py
+
+>>-extra:
+>>>-SWAPI.postman_collection.json
+
+>>-my_swapi:
+>>>-schema.py
+>>>-settings.py
+>>>-urls.py
+>>>-wsgi.py
+
+>>-tests:
+>>>-test_character.py
+>>>-test_director.py
+>>>-test_film.py
+>>>-test_people.py
+>>>-test_planet.py
+>>>-test_producer.py
+
+>>-db.sqlite3
+>>-manage.py
+>>-pytest.ini
+>>-requirements.txt
+>>-tox.ini
 
 Nos dirigimos a la carpeta llamada **parte_2**, en esta carpeta abran dos carpetas **my_swapi** y **swapi_docker**, ahora procederemos a abrir la carpeta **my_swapi** (para poder ejecutar ejecutar el proyecto debemos dirigirnos mediante consola a la carpeta **my_swapi**).
 
