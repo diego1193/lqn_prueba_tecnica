@@ -55,8 +55,8 @@ python ejercicio_2.py
 ```
 Y aparecerá en consola la solución del ejercicio 2.
 
-## Solucion parte 2, prueba tecnica (Explicación)🚀
-
+## Solucion parte 2, prueba tecnica 📖
+---
 ### Arquitectura my_swapi ⚙️
 
 - my_swapi:
@@ -123,3 +123,5 @@ En la carpeta **tests** dentro de **my_swapi**, en esta carpeta prodremos encotr
 #### Solución apartado 7 de la segunda parte de la prueba 📝
 En la carpeta **app** dentro de **my_swapi**, encontraremos un archivo llamado **models.py** allí podremos ver los cambios hechos sobre la clase People y por consiguiente la solución a este apartado.
 
+--- 
+### Ejecutando y probando aplicación 🚀
