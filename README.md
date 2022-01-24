@@ -70,14 +70,14 @@ Y aparecerá en consola la solución del ejercicio 2.
 >>>>- producers.json</br>
 >>>>- unittest.json</br>
 
->>>-management:</br>
->>>>-commands:
->>>>>-load_fixtures.py
+- management:
+    - commands:
+        - load_fixtures.py
 
->>>-admin.py
->>>-apps.py
->>>-models.py
->>>-schema.py
+- admin.py
+- apps.py
+- models.py
+- schema.py
 >>>-tests.py
 >>>-utils.py
 >>>-views.py
