@@ -61,7 +61,7 @@ Y aparecerá en consola la solución del ejercicio 2.
 
 - my_swapi:
     - app:
-        - fixtures: *(Archivos a cargar registros en la base de datos)*
+        - fixtures: **_(Archivos a cargar registros en la base de datos)_**
             - characters.json
             - diretors.json
             - films.json
@@ -70,7 +70,7 @@ Y aparecerá en consola la solución del ejercicio 2.
             - producers.json
             - unittest.json
         - management:
-            - commands:  *(función para cargar registros en la base de datos)*
+            - commands:  **_(función para cargar registros en la base de datos)_**
                 - load_fixtures.py
         - admin.py
         - apps.py
@@ -79,14 +79,14 @@ Y aparecerá en consola la solución del ejercicio 2.
         - tests.py
         - utils.py
         - views.py
-    - extra: *(Coleccion para cargar en postman)*
+    - extra: **_(Coleccion para cargar en postman)_**
         - SWAPI.postman_collection.json
-    - my_swapi: *(Archivos principales y configuraciones de la aplicación)*
+    - my_swapi: **_(Archivos principales y configuraciones de la aplicación)_**
         - schema.py
         - settings.py
         - urls.py
         - wsgi.py
-    - tests: *(Archivos .py para test unitarios)*
+    - tests: **_(Archivos .py para test unitarios)_**
         - test_character.py
         - test_director.py
         - test_film.py
@@ -95,9 +95,9 @@ Y aparecerá en consola la solución del ejercicio 2.
         - test_producer.py
     - db.sqlite3 
     - manage.py
-    - pytest.ini *(Configuración para pruebas unitarias)*
+    - pytest.ini **_(Configuración para pruebas unitarias)_**
     - requirements.txt
-    - tox.ini *(Configuración para flake8)*
+    - tox.ini **_(Configuración para flake8)_**
 
 Nos dirigimos a la carpeta llamada **parte_2**, en esta carpeta abran dos carpetas **my_swapi** y **swapi_docker**, ahora procederemos a abrir la carpeta **my_swapi** (para poder ejecutar ejecutar el proyecto debemos dirigirnos mediante consola a la carpeta **my_swapi**).
 
