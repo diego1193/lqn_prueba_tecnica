@@ -165,5 +165,5 @@ python manage.py runserver
 Una vez estemos corriendo el servidor, abrimos Postman e importamos nuestra collecion, que tiene como nombre **_SWAPI.postman_collection.json_** que esta en **extra** en la carpeta **my_swapi**, allí podremos probar cada uno de los query, tanto como los que se añadieron **Character(Personajes)**, como los anteriores.
 
 #### Coleccion Postman
-![ScreenShot](/images/postman.jpg)
+![ScreenShot](/images/postman1.jpg)
 
