@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 ## Solucion parte 1, prueba tecnica 🚀
 
-Ya descargado el repositorio, procederemos a abrir el archivo con Visual Studio Code o nuestro IDE preferido; allí encontraremos una carpeta llamada **parte_1**, en esta carpeta abran dos archivos **ejercicio_1.py** y **ejercicio_2.py**, ahora procederemos a ejecutar cada uno de estos archivos (para poder ejecutarlos debemos dirigirnos a la carpeta **parte_1** mediante consola).
+Ya descargado el repositorio, procederemos a abrir el archivo con Visual Studio Code o nuestro editor de codigo preferido; allí encontraremos una carpeta llamada **parte_1**, en esta carpeta habrá dos archivos **ejercicio_1.py** y **ejercicio_2.py**, ahora procederemos a ejecutar cada uno de estos archivos (para poder ejecutarlos debemos dirigirnos a la carpeta **parte_1** mediante consola).
 
 #### Solución ejercicio 1 de la primara parte de la prueba 📝
 
@@ -99,7 +99,7 @@ Y aparecerá en consola la solución del ejercicio 2.
     - requirements.txt
     - tox.ini **_(Configuración para flake8)_**
 
-Nos dirigimos a la carpeta llamada **parte_2**, en esta carpeta abran dos carpetas **my_swapi** y **swapi_docker**, ahora procederemos a abrir la carpeta **my_swapi**.
+Nos dirigimos a la carpeta llamada **parte_2**, en esta carpeta habrá dos carpetas **my_swapi** y **swapi_docker**, ahora procederemos a abrir la carpeta **my_swapi**.
 
 #### Solución apartado 1 de la segunda parte de la prueba 📝
 
