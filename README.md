@@ -61,14 +61,14 @@ Y aparecerá en consola la solución del ejercicio 2.
 
 >-my_swapi:
 >>-app:
-     -fixtures:
-       -characters.json
-       -diretors.json
-       -films.json
-       -people.json
-       -planets.json
-       -producers.json
-       -unittest.json
+>>>-fixtures:
+>>>>-characters.json
+>>>>-diretors.json
+>>>>-films.json
+>>>>-people.json
+>>>>-planets.json
+>>>>-producers.json
+>>>>-unittest.json
      -management:
        -commands:
         -load_fixtures.py
