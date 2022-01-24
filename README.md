@@ -59,51 +59,45 @@ Y aparecerá en consola la solución del ejercicio 2.
 
 ### Arquitectura **my_swapi**
 
->* my_swapi:
->> * app:
->>>* fixtures:
->>>>- characters.json</br>
->>>>- diretors.json</br>
->>>>- films.json</br>
->>>>- people.json</br>
->>>>- planets.json</br>
->>>>- producers.json</br>
->>>>- unittest.json</br>
-
-- management:
-    - commands:
-        - load_fixtures.py
-
-- admin.py
-- apps.py
-- models.py
-- schema.py
->>>-tests.py
->>>-utils.py
->>>-views.py
-
->>-extra:
->>>-SWAPI.postman_collection.json
-
->>-my_swapi:
->>>-schema.py
->>>-settings.py
->>>-urls.py
->>>-wsgi.py
-
->>-tests:
->>>-test_character.py
->>>-test_director.py
->>>-test_film.py
->>>-test_people.py
->>>-test_planet.py
->>>-test_producer.py
-
->>-db.sqlite3
->>-manage.py
->>-pytest.ini
->>-requirements.txt
->>-tox.ini
+- my_swapi:
+    - app:
+        - fixtures:
+            - characters.json
+            - diretors.json
+            - films.json
+            - people.json
+            - planets.json
+            - producers.json
+            - unittest.json
+    - management:
+        - commands:
+            - load_fixtures.py
+    - admin.py
+    - apps.py
+    - models.py
+    - schema.py
+    - tests.py
+    - utils.py
+    - views.py
+    - extra:
+        - SWAPI.postman_collection.json
+    - my_swapi:
+        - schema.py
+        - settings.py
+        - urls.py
+        - wsgi.py
+    - tests:
+        - test_character.py
+        - test_director.py
+        - test_film.py
+        - test_people.py
+        - test_planet.py
+        - test_producer.py
+    - db.sqlite3
+    - manage.py
+    - pytest.ini
+    - requirements.txt
+    - tox.ini
 
 Nos dirigimos a la carpeta llamada **parte_2**, en esta carpeta abran dos carpetas **my_swapi** y **swapi_docker**, ahora procederemos a abrir la carpeta **my_swapi** (para poder ejecutar ejecutar el proyecto debemos dirigirnos mediante consola a la carpeta **my_swapi**).
 
