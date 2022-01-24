@@ -125,6 +125,19 @@ En la carpeta **app** dentro de **my_swapi**, encontraremos un archivo llamado *
 ***
 ### Ejecutando y probando aplicación 🚀
 
+* ### Ejecutando migraciones y cargando registros a la base de datos
+
+Para poder ejecutar el proyecto debemos dirigirnos mediante consola a la carpeta **my_swapi**, por consiguiente debemos escribir:
+```
+python manage.py makemigrations
+```
+```
+python manage.py migrate
+```
+```
+python manage.py load_fixtures
+```
+
 * #### PyTest
 
 Para poder ejecutar el proyecto debemos dirigirnos mediante consola a la carpeta **my_swapi**, allí escribimos lo siguiente:
@@ -140,8 +153,13 @@ Para poder ejecutar el proyecto debemos dirigirnos mediante consola a la carpeta
 ```
 flake8 .
 ```
-Esto lo hacemos para cerciorarnos que nuestro proyecto tiene una sintaxis correcta y es un código de calidad con la herramienta **_Flake8_**.#### Ejemplo:
+Esto lo hacemos para cerciorarnos que nuestro proyecto tiene una sintaxis correcta y es un código de calidad con la herramienta **_Flake8_**.
 #### Ejemplo:
 ![ScreenShot](/images/flake.jpg)
 
-
+* #### Ejecutando proyecto
+Para poder ejecutar el proyecto debemos dirigirnos mediante consola a la carpeta **my_swapi**, allí escribimos lo siguiente:
+```
+flake8 .
+```
+Esto lo hacemos para cerciorarnos que nuestro proyecto tiene una sintaxis correcta y es un código de calidad con la herramienta **_Flake8_**.
