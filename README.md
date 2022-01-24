@@ -125,7 +125,7 @@ En la carpeta **app** dentro de **my_swapi**, encontraremos un archivo llamado *
 ***
 ### Ejecutando y probando aplicación 🚀
 
-#### * PyTest
+* #### PyTest
 
 Para poder ejecutar el proyecto debemos dirigirnos mediante consola a la carpeta **my_swapi** allí escribimos lo siguiente:
 ```
