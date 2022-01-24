@@ -56,7 +56,7 @@ python ejercicio_2.py
 Y aparecerá en consola la solución del ejercicio 2.
 
 ## Solucion parte 2, prueba tecnica 📖
----
+
 ### Arquitectura my_swapi ⚙️
 
 - my_swapi:
@@ -99,7 +99,7 @@ Y aparecerá en consola la solución del ejercicio 2.
     - requirements.txt
     - tox.ini **_(Configuración para flake8)_**
 
-Nos dirigimos a la carpeta llamada **parte_2**, en esta carpeta abran dos carpetas **my_swapi** y **swapi_docker**, ahora procederemos a abrir la carpeta **my_swapi** (para poder ejecutar ejecutar el proyecto debemos dirigirnos mediante consola a la carpeta **my_swapi**).
+Nos dirigimos a la carpeta llamada **parte_2**, en esta carpeta abran dos carpetas **my_swapi** y **swapi_docker**, ahora procederemos a abrir la carpeta **my_swapi**.
 
 #### Solución apartado 1 de la segunda parte de la prueba 📝
 
@@ -123,5 +123,15 @@ En la carpeta **tests** dentro de **my_swapi**, en esta carpeta prodremos encotr
 #### Solución apartado 7 de la segunda parte de la prueba 📝
 En la carpeta **app** dentro de **my_swapi**, encontraremos un archivo llamado **models.py** allí podremos ver los cambios hechos sobre la clase People y por consiguiente la solución a este apartado.
 
---- 
 ### Ejecutando y probando aplicación 🚀
+
+Para poder ejecutar el proyecto debemos dirigirnos mediante consola a la carpeta **my_swapi** allí escribimos lo siguiente:
+```
+pytest
+```
+Esto lo hacemos para generar las pruebas unitarias con **_PyTest_** y poder estar seguros que nuestro proyecto esta corriendo correctamente antes de salir a producción.
+#### Ejemplo:
+ ![ScreenShot](https://github.com/diego1193/lqn_prueba_tecnica/images/pytest.JPG)
+
+
+
