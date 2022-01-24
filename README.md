@@ -64,14 +64,14 @@ Y aparecerá en consola la solución del ejercicio 2.
 >>>-fixtures:
 >>>>-characters.json</br>
 >>>>-diretors.json</br>
->>>>-films.json
->>>>-people.json
->>>>-planets.json
->>>>-producers.json
->>>>-unittest.json
-     -management:
-       -commands:
-        -load_fixtures.py
+>>>>-films.json</br>
+>>>>-people.json</br>
+>>>>-planets.json</br>
+>>>>-producers.json</br>
+>>>>-unittest.json</br>
+>>>-management:
+>>>>-commands:
+>>>>>-load_fixtures.py
      -admin.py
      -apps.py
      -models.py
