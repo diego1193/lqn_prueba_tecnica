@@ -57,11 +57,11 @@ Y aparecerá en consola la solución del ejercicio 2.
 
 ## Solucion parte 2, prueba tecnica (Explicación)🚀
 
-### Arquitectura **my_swapi**
+### Arquitectura my_swapi ⚙️
 
 - my_swapi:
     - app:
-        - fixtures:
+        - fixtures: *(Archivos a cargar registros en la base de datos)*
             - characters.json
             - diretors.json
             - films.json
@@ -69,35 +69,35 @@ Y aparecerá en consola la solución del ejercicio 2.
             - planets.json
             - producers.json
             - unittest.json
-    - management:
-        - commands:
-            - load_fixtures.py
-    - admin.py
-    - apps.py
-    - models.py
-    - schema.py
-    - tests.py
-    - utils.py
-    - views.py
-    - extra:
+        - management:
+            - commands:  *(función para cargar registros en la base de datos)*
+                - load_fixtures.py
+        - admin.py
+        - apps.py
+        - models.py
+        - schema.py
+        - tests.py
+        - utils.py
+        - views.py
+    - extra: *(Coleccion para cargar en postman)*
         - SWAPI.postman_collection.json
-    - my_swapi:
+    - my_swapi: *(Archivos principales y configuraciones de la aplicación)*
         - schema.py
         - settings.py
         - urls.py
         - wsgi.py
-    - tests:
+    - tests: *(Archivos .py para test unitarios)*
         - test_character.py
         - test_director.py
         - test_film.py
         - test_people.py
         - test_planet.py
         - test_producer.py
-    - db.sqlite3
+    - db.sqlite3 
     - manage.py
-    - pytest.ini
+    - pytest.ini *(Configuración para pruebas unitarias)*
     - requirements.txt
-    - tox.ini
+    - tox.ini *(Configuración para flake8)*
 
 Nos dirigimos a la carpeta llamada **parte_2**, en esta carpeta abran dos carpetas **my_swapi** y **swapi_docker**, ahora procederemos a abrir la carpeta **my_swapi** (para poder ejecutar ejecutar el proyecto debemos dirigirnos mediante consola a la carpeta **my_swapi**).
 
