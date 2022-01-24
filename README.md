@@ -142,6 +142,6 @@ flake8 .
 ```
 Esto lo hacemos para cerciorarnos que nuestro proyecto tiene una sintaxis correcta y es un código de calidad con la herramienta **_Flake8_**.#### Ejemplo:
 #### Ejemplo:
-![ScreenShot](/images/pytest1.jpg)
+![ScreenShot](/images/flake.png)
 
 
