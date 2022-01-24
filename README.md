@@ -131,7 +131,7 @@ pytest
 ```
 Esto lo hacemos para generar las pruebas unitarias con **_PyTest_** y poder estar seguros que nuestro proyecto esta corriendo correctamente antes de salir a producción.
 #### Ejemplo:
- ![ScreenShot](https://github.com/diego1193/lqn_prueba_tecnica/images/pytest.JPG)
+ ![ScreenShot](https://github.com/diego1193/lqn_prueba_tecnica/images/pytest1.JPG)
 
 
 
