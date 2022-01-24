@@ -1,6 +1,6 @@
 # Prueba tecnica LQN - Diego Cabrera 📋
 
-> En este repositorio podrá encontrar dos carpetas primordiales, que son **parte_1** y **parte_2**; en la carpeta **parte_1** podrá encontrar los dos primeros ejercicios resueltos, según lo planteado en la primera parte de la prueba y en la carpeta **parte_2** podrá encontrar dos capetas llamadas my_swapi y swapi_docker. Más adelante entraré a explicar el desarrollo de la prueba.
+> En este repositorio podrá encontrar dos carpetas primordiales, que son **parte_1** y **parte_2**; en la carpeta **parte_1** podrá encontrar los dos primeros ejercicios resueltos, según lo planteado en la primera parte de la prueba y en la carpeta **parte_2** podrá encontrar dos capetas llamadas my_swapi y swapi_docker, donde esta resuelta la segunda parte de prueba. Más adelante entraré a explicar el desarrollo de la prueba.
 
 ## Requerimientos 📔
 * [Python](https://www.python.org/) (realizado en python 3.8)
@@ -198,6 +198,20 @@ Este proyecto esta ubicado en la carpeta **parte_2** de nuestro proyecto clonado
         - tests.py
         - utils.py
         - views.py
+    - config:
+        - gunicorn:
+            conf.py **_(Configurando el servidor wsgi (guinicorn))_**
+        - nginx:
+            - conf.d:
+                - local.conf **_(Configurando servidor inverso (nginx))_**
+    - static
+    - staticfiles: **_(Archivos estaticos generados)_**
+        - admin
+            - css
+            - fonts
+            - js
+        - graphene_django
+        - staticfiles.json
     - extra: **_(Coleccion para cargar en postman)_**
         - SWAPI.postman_collection.json
     - my_swapi: **_(Archivos principales y configuraciones de la aplicación)_**
@@ -212,7 +226,8 @@ Este proyecto esta ubicado en la carpeta **parte_2** de nuestro proyecto clonado
         - test_people.py
         - test_planet.py
         - test_producer.py
-    - db.sqlite3 
+    - docker-compose.yml **_(Archivo necesario para crear el contenedor)_**
+    - Dockerfile.py **_(Archivo necesario para crear el contenedor)_**
     - manage.py
     - pytest.ini **_(Configuración para pruebas unitarias)_**
     - requirements.txt
